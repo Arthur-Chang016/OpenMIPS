@@ -172,7 +172,7 @@ mem_wb mem_wb0(
 
     // to WB
     .wb_wd(wb_wd_i),    .wb_wreg(wb_wreg_i),
-    .wb_wdata_i(wb_wdata_i)
+    .wb_wdata(wb_wdata_i)
 );
 
 endmodule
